@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='assets/css/reset.css'/>
+	<link rel='stylesheet' href='assets/css/style.css'/>
+    <title>CrystalsCollector!</title>
+    <link rel="icon" href='assets/images/title_gem.jpg'>
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Asar" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+</head>
+
+
+<body>
+	<div id='Heading'>CrystalsCollector!</div>
+	
+	<div id='Instructions'>
+	Welcome!<br></br>
+	You will be given a random number at the start of the game.<br></br>
+	There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br></br>
+	You win the game by matching your total score to the random number; you lose the game if your total score goes above the random number.<br></br>
+	The value of each crystal is hidden from you until you click on it.<br></br>
+	Each time when the game starts, the game will change the value of each crystal.<br></br>
+	Good luck and have fun!
+	</div>
+	
+	<div id='number-to-guess'></div>
+	
+	<div id='win-loss'>
+		<div id='winOrlose'></div>
+		<br></br>
+		<div id='wins'>Wins: </div>
+		<br></br>
+		<div id='losses'>Losses:</div>
+	</div>
+	
+	<div id='winlosegraphic'></div>
+	
+	<!-- Empty div; Will be filled dynamically -->
+	<div id='crystals'>
+	</div>
+	
+	<div id='total-score'>Your total score is:</div>
+	
+	<div id='added-score'></div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="javascript/game.js"></script>
+
+</body>
+
+</html>

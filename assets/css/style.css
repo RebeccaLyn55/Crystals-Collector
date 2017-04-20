@@ -1,0 +1,97 @@
+body{
+	background-image: url('pow-star.png');
+}
+
+#Heading{
+	margin-left:10px;
+	padding:30px 0px 30px 0px;
+	width:300px;
+	background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 45%,#ff5c5c 100%);
+	text-align:center;
+	font-family:'UnifrakturCook';
+	font-size:40px;
+}
+
+#Instructions{
+	float:left;
+	margin:15px 0px 0px 10px;
+	padding: 10px;
+	width:450px;
+	background: -webkit-linear-gradient(top, #efc5ca 0%,#f18e99 19%,#f18e99 19%,#d24b5a 60%,#ba2737 85%);
+	font-family:'Asar';
+}
+
+#number-to-guess{
+	float:left;
+	margin:15px 0px 0px 60px;
+	padding-top:50px;
+	height:100px;
+	width:200px;
+	background: -webkit-linear-gradient(top, #a688ca 0%,#9974c0 97%,#8155b1 100%);
+	text-align:center;
+	font-family:'Rubik+Mono+One';
+	font-size:35px;
+}
+
+#win-loss{
+	float:left;
+	margin:15px 0px 0px 60px;
+	padding-top:10px;
+	padding-left:10px;
+	height:120px;
+	width: 100px;
+	background: -webkit-linear-gradient(top, #42e8c7 0%,#53ffb2 100%);
+}
+
+#winlosegraphic{
+    float:left;	
+	margin:15px 0px 0px 55px;
+	padding-left:10px;
+	padding-left:10px;
+	width:150px;
+	height:200px;
+}
+
+#win-image{
+	width: 100%;
+}
+
+#lose-image{
+	width: 100%;
+}
+
+#crystals{
+	clear:both;
+}
+
+#total-score{
+	position:relative;
+	bottom: 50px;
+	left:100px;
+	float:left;
+	margin:20px 0px 0px 10px;
+	padding:15px 0px 0px 10px;
+	height:30px;
+	width:200px;
+	background: -webkit-linear-gradient(top, #fefcea 1%,#fefcea 1%,#f1da36 5%,#f1da36 5%,#f1da36 7%);
+}
+
+#added-score{
+	float:left;
+	position:relative;
+	right:120px;
+	margin:20px 0px 70px 10px;
+	padding-top:60px;
+	height:100px;
+	width:210px;
+	background: -webkit-linear-gradient(top, #fefcea 1%,#fefcea 1%,#f1da36 5%,#f1da36 5%,#f1da36 7%);
+	text-align:center;
+	font-size:30px;
+}
+
+.crystal-image{
+	float:left;
+	margin:20px 0px 0px 10px;
+	width: 200px;
+	height: 200px;
+}
